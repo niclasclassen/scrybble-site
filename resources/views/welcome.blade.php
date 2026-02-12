@@ -268,7 +268,7 @@
 
                 <blockquote style="--accent-color: var(--accent-color-third); grid-area: a;"
                             class="card card-accent">
-                    <p>Without export reMarkeable is a silo, a graveyard.</p>
+                    <p>Without export reMarkable is a silo, a graveyard.</p>
                     <cite>Holger Hubs — Creative professional, North America</cite>
                 </blockquote>
 
@@ -315,14 +315,14 @@
                     <label class="btn btn-outline-danger position-relative border-0" for="yearly">
                         Yearly
                         <span
-                            class="position-absolute z-1 top-0 start-100 translate-middle badge rounded-pill bg-primary text-white">-15%</span>
+                            class="position-absolute z-1 top-0 start-100 translate-middle badge rounded-pill bg-primary text-white">-10%</span>
                     </label>
 
                     <input type="radio" class="btn-check" name="billing-period" id="two-yearly" autocomplete="off">
                     <label class="btn btn-outline-danger position-relative border-0" for="two-yearly">
                         2-Yearly
                         <span
-                            class="position-absolute z-1 top-0 start-100 translate-middle badge rounded-pill bg-primary text-white">-25%</span>
+                            class="position-absolute z-1 top-0 start-100 translate-middle badge rounded-pill bg-primary text-white">-15%</span>
                     </label>
                 </div>
             </div>
@@ -385,8 +385,8 @@
 
                 const multipliers = {
                     monthly: 1,
-                    yearly: 0.85,
-                    'two-yearly': 0.75,
+                    yearly: 0.9,
+                    'two-yearly': 0.85,
                 }
 
                 radio.addEventListener('change', function(e) {
