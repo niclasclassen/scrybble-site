@@ -1,4 +1,9 @@
 # Scrybble
+docker compose -f docker-compose.selfhosted.yml exec --user www-data app php artisan config:clear
+docker compose -f docker-compose.selfhosted.yml exec --user www-data app php artisan optimize:clear
+docker compose -f docker-compose.selfhosted.yml exec --user www-data app php artisan optimize
+
+
 
 This is the back-end and front-end for [Scrybble](https://scrybble.ink). It's relatively easy to set-up locally, but does require some technical knowledge.
 
